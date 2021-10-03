@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.background {
+    position: relative;
+    overflow: visible;
+    background: linear-gradient(#e6dade 0%, #c9a2a5 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.circle_top {
+    position: relative;
+    overflow: visible;
+    width: 300px;
+    height: 280px;
+    left: 90px;
+    top: 60px;
+    background-color: rgba(191,141,134,1);
+    border-radius: 50%;
+}
+
+.circle_bottom {
+    background-color: rgba(191,141,134,1);
+    border-radius: 50%;
+    position: relative;
+    overflow: visible;
+    width: 319px;
+    height: 300px;
+    left: 915px;
+    top: 60px;
+}
+
+.overlay {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 900px;
+    top: -700px;
+    background-size: 100%;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    backdrop-filter: blur(30px);
+    --webkit-backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.card {
+    position: relative;
+    overflow: visible;
+    background: inherit;
+    width: 50rem;
+    height: 30rem;
+    margin: 100px;
+    top: 140px;
+    left: 140px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #fff;
+     backdrop-filter: blur(18px);
+   --webkit-backdrop-filter: blur(18px);
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+#name {
+    left: -380px;
+    top: 70px;
+    position: relative;
+    overflow: visible;
+    width: 317px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    color: rgba(48,28,30,1);
+}
+
+#numbers {
+    left: 14px;
+    top: 304px;
+    position: relative;
+    overflow: visible;
+    width: 825px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    color: rgba(48,28,30,1);
+}
+
+#github {
+    left: -380px;
+    top: 408px;
+    position: relative;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    color: rgba(48,28,30,1);
+}
+
+#expiration {
+    right: -293px;
+    top: 408px;
+    position: relative;
+    overflow: visible;
+    width: 69px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    color: rgba(48,28,30,1);
+}
+
+.logo {
+    position: relative;
+    overflow: visible;
+    width: 80px;
+    height: 80px;
+    left: 710px;
+    top: -40px;
+    border-radius: 30px;
+    background: #bf8d86;
+}
+
+.logo_overlay {
+    position: relative;
+    overflow: visible;
+    width: 100px;
+    height: 100px;
+    left: 710px;
+    top: 40px;
+   border-radius: 30px;
+   background: #bf8d86;
+   opacity: .5%;
+}
+
+#linkedln {
+    right: 790px;
+    left: 334px;
+    top: 69px;
+    position: absolute;
+    overflow: visible;
+    width: 37px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(48,28,30,1);
+}
+
+a.link, a.git{
+    color: rgba(48,28,30,1);
+}
