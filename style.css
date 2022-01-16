@@ -14,7 +14,7 @@
     }
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     position: fixed;
@@ -22,10 +22,10 @@
     height: auto;
 }
 
-.background {
+body{
+    background: linear-gradient(#730710 0%, #730710 4.01%, #a91526 100%);
     position: relative;
     overflow: visible;
-    background: linear-gradient(#e6dade 0%, #c9a2a5 100%);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100%;
@@ -34,160 +34,222 @@
     height: 100vh;
 }
 
-.circle_top {
-    position: relative;
-    overflow: visible;
-    width: 300px;
-    height: 280px;
-    left: 90px;
-    top: 60px;
-    background-color: rgba(191,141,134,1);
-    border-radius: 50%;
-}
-
-.circle_bottom {
-    background-color: rgba(191,141,134,1);
-    border-radius: 50%;
-    position: relative;
-    overflow: visible;
-    width: 319px;
-    height: 300px;
-    left: 915px;
-    top: 60px;
-}
-
-.overlay {
-    position: relative;
-    overflow: visible;
-    width: 100%;
-    height: 900px;
-    top: -700px;
-    background-size: 100%;
-    background: transparent;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
-    backdrop-filter: blur(30px);
-    --webkit-backdrop-filter: blur(30px);
-    background-color: rgba(255, 255, 255, 0.15);
-}
-
-.card {
-    position: relative;
-    overflow: visible;
-    background: inherit;
-    width: 50rem;
-    height: 30rem;
-    margin: 100px;
-    top: 140px;
-    left: 140px;
-    border-radius: 5px;
-    background: transparent;
-    border: 1px solid #fff;
-     backdrop-filter: blur(18px);
-   --webkit-backdrop-filter: blur(18px);
-    background-color: rgba(255, 255, 255, 0.06);
-}
-
-#name {
-    left: -380px;
-    top: 70px;
-    position: relative;
-    overflow: visible;
-    width: 317px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: Source Serif Pro;
-    font-style: normal;
+h1{
+    font-family: "Linux Libertine G";
     font-weight: normal;
-    font-size: 37px;
-    color: rgba(48,28,30,1);
-}
-
-#numbers {
-    left: 14px;
-    top: 304px;
-    position: relative;
-    overflow: visible;
-    width: 825px;
-    white-space: nowrap;
+    font-style: italic;
+    font-size: 45px;
+    letter-spacing: 0.03em;
     text-align: left;
-    font-family: Source Serif Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 90px;
-    color: rgba(48,28,30,1);
+    bottom: 70%;
+    left: 50%;
+    color: #d3c6bb;
 }
 
-#github {
-    right: 380px;
-    top: 430px;
-    position: relative;
-    overflow: visible;
-    width: 175px;
-    white-space: nowrap;
+p{
+    font-family: "Linux Libertine G";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    left: 50%;
+    margin-top: -16%;
+    color: #d3c6bb;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    bottom: 40%;
+    border-radius: .25em;
+    font-family: "Linux Libertine G";
+    font-weight: normal;
+    font-style: italic;
+    font-size: 28px;
+    letter-spacing: 0.03em;
     text-align: center;
-    font-family: Source Serif Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37px;
-    color: rgba(48,28,30,1);
-}
+    color: #fafafa;
+    background: linear-gradient(#be8c56 0%, #6d5f47 100%);
+    border: none;
+    cursor: pointer;
+} 
 
-#expiration {
-    right: -320px;
-    top: 430px;
-    position: relative;
-    overflow: visible;
-    width: 69px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: Source Serif Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37px;
-    color: rgba(48,28,30,1);
-}
-
-.logo {
-    position: relative;
-    overflow: visible;
-    width: 80px;
-    height: 80px;
-    left: 700px;
-    top: -55px;
-    border-radius: 30px;
-    background: #bf8d86;
-}
-
-.logo_overlay {
-    position: relative;
-    overflow: visible;
-    width: 100px;
-    height: 100px;
-    left: 690px;
-    top: 35px;
-   border-radius: 30px;
-   background: #bf8d86;
-   filter: blur(20px);
-}
-
-#linkedln {
-    right: 790px;
-    left: 325px;
-    top: 55px;
+#ribbon{
+    width: 35px;
+    height: 1702px;
+    background: #383828;
+    top: -50%;
     position: absolute;
-    overflow: visible;
-    width: 37px;
-    white-space: nowrap;
-    text-align: center;
-    font-family: Source Serif Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    color: rgba(48,28,30,1);
+    /*'filter' is not supported by Internet Explorer.*/
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.1));
+    transform: rotate(40deg);
 }
 
-a.socialMedia, a.git{
-    color: rgba(48,28,30,1);
+#circle{
+    width: 47px;
+    height: 52px;
+    bottom: 56.9%;
+    left: 18%;
+    /*'filter' is not supported by Internet Explorer.*/
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.16));
+    transform: rotate(40deg);
+}
+
+#tie{
+    width: 240px;
+    height: 144px;
+    top: 21%;
+    left: 13.5%;
+    -webkit-filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.16));
+    /*'filter' is not supported by Internet Explorer.*/
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.16));
+    transform: rotate(-10deg);
+}
+
+#tie2{
+    width: 240px;
+    height: 144px;
+    bottom: 48%;
+    left: 7.8%;
+    -webkit-filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.16));
+    /*'filter' is not supported by Internet Explorer.*/
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.16));
+    transform: rotate(230deg);
+}
+
+.star{
+    width: 50px;
+    height: 50px;
+    background: #be8c56; 
+    position: relative;
+    padding: .5%;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transform: rotate(10deg);
+    right: -46%;
+    margin-top: 9%;
+}
+
+.star2{
+    width: 50px;
+    height: 50px;
+    background: #be8c56;
+    position: relative;
+    padding: .6%;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    right: -72%;
+    margin-top: 14%;
+}
+
+#flake{
+    width: 70px;
+    height: 70px;
+    right: 15%;
+    top: 20%;
+}
+
+#flake2{
+    width: 50px;
+    height: 50px;
+    right: 4%;
+    top: 4%;
+    transform: rotate(25deg);
+}
+
+#flake3{
+    width: 50px;
+    height: 50px;
+    left: 60%;
+    top: 3%;
+    transform: rotate(10deg);
+}
+
+#flake4{
+    width: 30px;
+    height: 30px;
+    left: 43%;
+    top: 40%;
+    transform: rotate(10deg);
+}
+
+#flake5{
+    width: 60px;
+    height: 60px;
+    left: 43%;
+    top: 50%;
+}
+
+#flake6{
+    width: 50px;
+    height: 60px;
+    right: 4%;
+    top: 60%;
+}
+
+#flake7{
+    width: 50px;
+    height: 60px;
+    right: 15%;
+    top: 80%;
+    transform: rotate(-26deg);
+}
+
+#flake8{
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    bottom: 5%;
+    transform: rotate(16deg);
+}
+
+#flake9{
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    bottom: 20%;
+    transform: rotate(-7deg);
+}
+
+#flake10{
+    width: 40px;
+    height: 40px;
+    left: 25%;
+    bottom: 90%;
+}
+
+#flake11{
+    width: 40px;
+    height: 40px;
+    left: 12%;
+    top: 25%;
+}
+
+#flake12{
+    width: 35px;
+    height: 35px; 
+    left: 1%;  
+}
+
+#flake13{
+    width: 30px;
+    height: 30px;
+    left: 5%;
+    bottom: 42%;
+}
+
+#flake14{
+    width: 30px;
+    height: 30px;
+    top: 8%;
+    left: 1%;
+}
+
+#flake15{
+    width: 30px;
+    height: 30px;
+    top: 15%;
+    left: 4%;
 }
