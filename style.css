@@ -31,39 +31,39 @@ body{
 }
 
 .d-shape-outer{
-width: 213px;
-height: 272px;
+width: 68px;
+height: 70px;
 background: #f6e2e1;
 border: 1px solid #f6e2e1;
 border-radius: 10% 100% 90% 0%/0% 100% 80% 10%;
 position: absolute;
 margin: auto;
 margin-top: 17%;
-margin-left: 2%;
+margin-left: 20%;
 }
 
 .d-shape-inner{
-width: 169px;
-height: 220px;
+width: 55px;
+height: 60px;
 background: #d9b7b1;
 border: 1px solid #f6e2e1;
 border-radius: 10% 100% 90% 0%/0% 100% 80% 10%;
 position: absolute;
 margin: auto;
-margin-top: 20%;
-margin-left: 5%;
+margin-top: 23%;
+margin-left: 25%;
 }
 
 .d-shape-in-inner{
-width: 120px;
-height: 155px;
+width: 42px;
+height: 50px;
 background: #ecc1bf;
 border: 1px solid #f6e2e1;
 border-radius: 10% 100% 90% 0%/0% 100% 80% 10%;
 position: absolute;
 margin: auto;
-margin-top: 25%;
-margin-left: 9%;
+margin-top: 28%;
+margin-left: 30%;
 }
 
 h1{
@@ -74,31 +74,31 @@ letter-spacing: 0em;
 text-align: left;
 color: #582828;
 position: absolute;
-margin-left: 50%;
-margin-top: 15%;
+margin-left: 28%;
+margin-top: 47%;
 z-index: 2;
 }
 
 h2{
 position: absolute;
-font-family: 'Constantia';
+font-family: "Monotype Corsiva";
 font-weight: normal;
-font-size: 25px;
+font-size: 35px;
 text-align: left;
 color: #582828;
-margin-top: 53%;
-margin-left: 38%;
+margin-top: 18%;
+margin-left: 36%;
 }
 
 .text{
 font-family: 'Constantia';
 font-weight: normal;
-font-size: 15px;
+font-size: 20px;
 text-align: left;
 position: absolute;
 color: #582828;
-margin-top: 62%;
-margin-left: 35%;
+margin-top: 30%;
+margin-left: 30%;
 }
 
 a{
@@ -106,35 +106,84 @@ text-decoration: underline;
 color: #582828;
 }
 
+.container{
+margin: auto;
+position: relative;
+margin-top: 25%;
+justify-content: center;
+margin-left: 5%;
+}
+
 .rect{
-width: 600px;
-height: 610px;
+width: 500px;
+height: 480px;
 background: #fbfbfb;
-box-shadow: 0px 3px 6px rgba(249, 240, 240, 0.5);
+margin: auto;
+position: absolute;
+overflow: hidden;
+top: 0;
+bottom: 0;
+margin-left: 30%;
+border-radius: 34px;
+box-shadow: 0px 6px 6px rgba(235, 178, 199, 0.51);
+}
+
+.rect2{
+transform-style: preserve-3d;
+transition: 0.8s;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+opacity: 0;
+width: 500px;
+height: 480px;
+background: #fbfbfb;
 margin: auto;
 position: absolute;
 top: 0;
 bottom: 0;
 margin-left: 30%;
+border-radius: 34px;
+box-shadow: 0px 6px 6px rgba(235, 178, 199, 0.51);
+}
+
+.container:hover .rect2{
+opacity: 100;
+}
+
+.container:hover .rect{
+transform: rotateY(180deg);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.circle{
+width: 100px;
+height: 100px;
+background: #fff;
+border: 1px solid #d89090;
+border-radius: 50%;
+position: absolute;
+margin-top: 40%;
+margin-left: 5%;
 }
 
 #line{
-width: 212px;
+width: 310px;
 height: 0px;
 background: transparent;
 border: 4px solid #d89090;
 opacity: 0.7;
 position: absolute;
-margin-left: 48%;
-margin-top: 22%;
-z-index: 2;
+margin-left: 28%;
+margin-top: 55%;
+z-index: 1;
 }
 
 #pink-btn{
     width: 100px;
     height: 40px;
     border-radius: 35px;
-    background: #f0c0c0;
+    background: #f3dce2;
     opacity: 0.85;
     box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.35);   
     position: absolute; 
@@ -144,7 +193,7 @@ z-index: 2;
     font-size: 15px;
     text-align: center;
     color: #582828;
-    margin-top: 70%;
+    margin-top: 44%;
     margin-left: 30%;
     cursor: pointer;
 }
@@ -153,7 +202,7 @@ z-index: 2;
     width: 100px;
     height: 40px;
     border-radius: 35px;
-    background: #f0c0c0;
+    background: #f3dce2;
     opacity: 0.85;
     box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.35);
     position: absolute;
@@ -163,8 +212,8 @@ z-index: 2;
     font-size: 15px;
     text-align: center;
     color: #582828;
-    margin-top: 70%;
-    margin-left: 50%;
+    margin-top: 44%;
+    margin-left: 55%;
     cursor: pointer;
 }
 
@@ -176,8 +225,8 @@ letter-spacing: 0em;
 text-align: left;
 color: #582828;
 position: absolute;
-margin-top: 80%;
-margin-left: 45%;
+margin-top: 60%;
+margin-left: 40%;
 }
 
 #underline2{
@@ -187,7 +236,7 @@ background: transparent;
 border: 4px solid #d89090;
 opacity: 0.7;
 position: absolute;
-margin-top: 58%;
+margin-top: 25%;
 margin-left: 37%;
 }
 
@@ -198,8 +247,8 @@ background: transparent;
 border: 4px solid #d89090;
 opacity: 0.7;
 position: absolute;
-margin-left: 42%;
-margin-top: 88%;
+margin-left: 36%;
+margin-top: 68%;
 }
 
 .text2{
@@ -208,6 +257,6 @@ font-weight: normal;
 font-size: 20px;
 text-align: left;
 color: #582828;
-margin-top: 91%;
-margin-left: 30%;
+margin-top: 73%;
+margin-left: 22%;
 }
