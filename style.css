@@ -5,6 +5,7 @@
 @media screen and (min-width: 1200px) {
     #header-image {
         background-repeat: no-repeat;
+        width: 100%;
     }
 }
 
