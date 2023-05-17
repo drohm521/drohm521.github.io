@@ -1,2 +1,2 @@
-# [Link text Here](https://drohm521.github.io)
-My developer portfolio using GitHub pages.
+# [developer portfolio](https://drohm521.github.io)
+This is my developer portfolio using Github pages.
